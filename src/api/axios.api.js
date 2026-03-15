@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API = "http://localhost:5546"
+// const API = "http://localhost:5546"
+
+const API = "https://login-backend-yx3u.onrender.com"
 
 export const getTasksAPI = () => {
 
