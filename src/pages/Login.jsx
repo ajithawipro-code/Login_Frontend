@@ -12,7 +12,7 @@ function Login(){
 
  const handleLogin = ()=>{
   login({email,password});
-  navigate("/tasks");
+  nwindow.location.href = "/";
  };
 
  return(
