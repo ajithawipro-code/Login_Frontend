@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const API = "http://localhost:5546"
 
-const API = "https://login-backend-yx3u.onrender.com"
+const API = import.meta.env.VITE_API_URL;
 
 export const getTasksAPI = () => {
 
