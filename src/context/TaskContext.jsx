@@ -17,7 +17,12 @@ export const TaskProvider = ({children}) =>{
 
     useEffect(()=>{
 
+        const token = localStorage.getItem("token");
+
+        if(token){
+
         getTasks();
+        }
 
     },[]);
 
